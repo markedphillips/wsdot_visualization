@@ -12,4 +12,4 @@ To do the actual forecast Alteryx Designed is required. The script provided (“
 
 Once all the cities have a forecast then the Python script “merger.py” will produce the final forecast for the next 16 weeks starting on the last date found on the WSDOT dataset. The general forecast for a week is spread between the days of that week, weighting each day by the weekday coefficient previously computed. At the end the file “full_forecast.csv” is produced as the final output. This file can feed Tableau to create a visualization.
 
-Please note that the forecasts ends on the 1st of October 2018.  Please direct any questions to reed@yurchaklaw.com, m14welton@gmail.com.
+Please note that the forecasts ends on the 1st of October 2018. 
